@@ -70,7 +70,7 @@ main {
 }
 
 #ambation {
-    color: #64748b;
+    color: rgb(100, 116, 139);
     font-size: 18px;
     margin-top: 8px;
 }
@@ -107,7 +107,7 @@ main {
     color: #0f172a;
 }
 
-#catagorize {
+#categorize {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
