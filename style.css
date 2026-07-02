@@ -1,0 +1,187 @@
+/* Google Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+/*  Header */
+
+#head_se {
+    background: #0f172a;
+    padding: 20px 0;
+}
+
+#navigation{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.nav_bar {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav_bar:hover {
+    color: #38bdf8;
+}
+
+/*  Main  */
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/*  Hero  */
+
+#main_1st {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#image_pa {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #38bdf8;
+    margin-bottom: 20px;
+}
+
+#name {
+    font-size: 32px;
+    color: #0f172a;
+}
+
+#ambation {
+    color: #64748b;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+/*  About  */
+
+#about_section {
+    margin: 40px 0;
+}
+
+#heading3 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0f172a;
+}
+
+.about_pra {
+    text-align: justify;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/*  Skills  */
+
+#skills_div {
+    margin-top: 40px;
+}
+
+#skills_set {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #0f172a;
+}
+
+#catagorize {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill_name {
+    background: #38bdf8;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.skill_name:hover {
+    background: #0284c7;
+    transform: translateY(-5px);
+}
+
+/*  HR  */
+
+hr {
+    border: none;
+    height: 1px;
+    background: #ddd;
+    margin: 35px 0;
+}
+
+/*  Footer  */
+
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/*  Responsive  */
+
+@media (max-width: 768px) {
+
+    main {
+        width: 90%;
+        padding: 25px;
+    }
+
+    #navigarion {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #image_pa {
+        width: 150px;
+        height: 150px;
+    }
+
+    #name {
+        font-size: 28px;
+    }
+
+    #heading3,
+    #skills_set {
+        font-size: 24px;
+    }
+
+    .skill_name {
+        width: 100%;
+        text-align: center;
+    }
+}
